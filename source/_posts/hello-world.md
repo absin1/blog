@@ -1,38 +1,17 @@
 ---
-title: Hello World
+title: Software Architecture
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
-
-## Quick Start
-
-### Create a new post
-
-``` bash
-$ hexo new "My New Post"
-```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/deployment.html)
+This is a small essay on Software Architecture.
+I try to think of software architecture as things that are difficult to change later on. I won't even attempt to recall a formal definition and would most certainly not be obliged to either. Its interesting to note that an 'architect' is someone who has been labelled so by the company they work with and might not have anything to do with real software architecture. At the same time the process that is followed while making software architecture may not necessarily only be followed by an architect or whoever the company decides to call that.
+## Omnipresence
+The first thing we have to appreciate is that all softwares have architecture just like all houses do; be it an apartment, a shanty, a bunglow. Architecture is an inherent characteristic of any software be it a POC, or a beta, or a production ready application. It doesn't matter if there was an 'architect' involved or not there is always going to be an architecture. 
+## Implicit architecture
+A lot of times while laying down applications between a handful or even less engineers, the process of architecture can become quite informal. Much like building a bridge can be done without putting in any pre-thought softwares can also be built on the fly. The bridge comparison does throw a light on the overall sanity of such systems though. It is almost never a good idea to proceed like this; however a bunch of civil engineers can come together to build a small bypass in a matter of weeks without having put a lot of dedicated pre-thought into how the things will exavtly pan out; and they can do this because, well because they have made bridges before. Would I be able to make a bridge like that?
+## Choices
+Software architecture is a lot about finding difficult choices early on and making functionally and situationally permissive ones. This can seem trivial but having made this choice early on ensures that an imaginative enquiry has been made to the proceedings that might follow in either scenarios ensuring possibility to make other considerations that could have otherwise been completely overlooked, until faced otherwise well into the development phase.
+## Alienation
+Software Architecture is also about alienating yourself away from the exact deliverable which in this case happens to be code. This ensures that you have traversed the whole process from requirement gathering to the exact deliverable to a very fine granularity without having to first do it. While this may seem imaginatively and analytically daunting it paves the way for a very non-dependent scenario where the ownership transfer can be attained quite smoothly using the same thought deliverables that you made for yourself! This may not be of as much interest to you as a developer as it would be to your employer.
+## Architectural Patterns
+Common architectural patterns like Peer2Peer, Master-Slave, Client-Server, Blackboard all of which have been multiple implementations with very open licences to enhance your toolkit as an engineer. You can easily employ these patterns to handle problems in both your functional and sanity space. Having an understanding of these patterns can help any developer find an appropriate solutions to even newer problems. For example in a traditional ASR architecture there will most commonly be a WFST based model whose robustness can be applied to other related problems like language modelling or conversational decision trees.
+## Design Patterns
+Unlike architectual patters enriching your toolkit, using common design patterns while implementing solutions to common problems like UI state management (MVC), makes it easy for other developers to constructively collaborate. It makes for most of the code sticking to a certain format which is also commonly seen 'in the wild'. While making codebases robust you will also get a lot better readability if you can apply these patterns to your problem space.
