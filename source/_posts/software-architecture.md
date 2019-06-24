@@ -1,5 +1,6 @@
 ---
 title: Software Architecture
+date: 2019-06-05 01:00:50
 ---
 This is a small essay on Software Architecture.
 I try to think of software architecture as things that are difficult to change later on. I won't even attempt to recall a formal definition and would most certainly not be obliged to either. Its interesting to note that an 'architect' is someone who has been labelled so by the company they work with and might not have anything to do with real software architecture. At the same time the process that is followed while making software architecture may not necessarily only be followed by an architect or whoever the company decides to call that.
