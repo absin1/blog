@@ -44,3 +44,8 @@ Find the `$tomcat-root/conf/context.xml`, the `Manager` is by default commented 
 
 Now because we are using PostgreSQL we need to add the JDBC libary to the `$tomcat-root/lib` folder.
 Once we do that we are done.
+[cluster-manager](https://tomcat.apache.org/tomcat-9.0-doc/config/cluster-manager.html)
+[manager](https://tomcat.apache.org/tomcat-9.0-doc/config/manager.html)
+[manager-howto](https://tomcat.apache.org/tomcat-9.0-doc/manager-howto.html)
+[cluster-howto](https://tomcat.apache.org/tomcat-9.0-doc/cluster-howto.html)
+[context](http://localhost:8080/docs/config/context.html)
