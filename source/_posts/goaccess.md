@@ -8,7 +8,7 @@ Have you ever wondered that watching logs of your apache2 can be a big headache.
 In order to do this we are going to use an open source tool called goAccess.
 
 ### Install goAccess
-If you are luckily on Ubuntu you can just use ```apt-get``` like so:
+If you are luckily on Ubuntu you can just use `apt-get` like so:
 ```
 sudo apt-get install goaccess
 ```
